@@ -35,8 +35,9 @@ def initial_round
   return first_round
 end
 
-def hit?(current_total)
+def hit?(card_total)
   # code hit? here
+  valid_inputs = 'h'
   prompt_user
   get_user_input
   else 

@@ -40,8 +40,7 @@ def hit?(current_total)
   prompt_user
   get_user_input
   if prompt_user == 'h'
-    deal_card
-  
+    puts deal_card
 end
 
 def invalid_command
